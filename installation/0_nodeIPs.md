@@ -1,33 +1,39 @@
-Public DNS
-ec2-54-213-85-144.us-west-2.compute.amazonaws.com
 
-Public IP
-54.213.85.144
+master
+
+ec2-54-244-142-240.us-west-2.compute.amazonaws.com
+
+ip-172-31-9-213.us-west-2.compute.internal
+
+
 ---
+replica
+ec2-54-149-193-7.us-west-2.compute.amazonaws.com
 
-Public DNS
-ec2-54-213-169-58.us-west-2.compute.amazonaws.com
+ip-172-31-1-251.us-west-2.compute.internal
 
-Public IP
-54.213.169.58
+
 ---
+node1
+ec2-54-191-16-208.us-west-2.compute.amazonaws.com
 
-Public DNS
-ec2-54-186-26-240.us-west-2.compute.amazonaws.com
+ip-172-31-1-253.us-west-2.compute.internal
 
-Public IP
-54.186.26.240
----
+node2
+ec2-54-200-24-215.us-west-2.compute.amazonaws.com
 
-Public DNS
-ec2-54-187-123-27.us-west-2.compute.amazonaws.com
+ip-172-31-1-255.us-west-2.compute.internal
 
-Public IP
-54.187.123.27
----
-Public DNS
-ec2-54-218-13-11.us-west-2.compute.amazonaws.com
+node3
+ec2-54-186-27-102.us-west-2.compute.amazonaws.com
 
-Public IP
-54.218.13.11
----
+ip-172-31-1-254.us-west-2.compute.internal
+
+-----Non MASTER
+172.31.9.213 ip-172-31-9-213.us-west-2.compute.internal master
+172.31.1.251 ip-172-31-1-251.us-west-2.compute.internal replica
+172.31.1.253 ip-172-31-1-253.us-west-2.compute.internal node1
+172.31.1.255 ip-172-31-1-255.us-west-2.compute.internal node2
+172.31.1.254 ip-172-31-1-254.us-west-2.compute.internal node3
+
+----------
