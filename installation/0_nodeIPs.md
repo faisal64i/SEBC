@@ -37,3 +37,13 @@ ip-172-31-1-254.us-west-2.compute.internal
 172.31.1.254 ip-172-31-1-254.us-west-2.compute.internal node3
 
 ----------
+
+
+-----Non MASTER
+172.31.9.213 master.zaman.com master
+172.31.1.251 replica.zaman.com replica
+172.31.1.253 node1.zaman.com node1
+172.31.1.255 node2.zaman.com node2
+172.31.1.254 node3.zaman.com node3
+
+----------
